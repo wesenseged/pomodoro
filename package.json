@@ -1,0 +1,22 @@
+{
+  "name": "countdown",
+  "version": "1.0.0",
+  "description": "a countdown terminal cil tool",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+  "pomodoro": "./index.js"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.10.1",
+    "chalk": "^5.4.1",
+    "figlet": "^1.8.1",
+    "node-notifier": "^10.0.1",
+    "play-sound": "^1.1.6"
+  }
+}
