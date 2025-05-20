@@ -5,11 +5,16 @@ import chalk from "chalk";
 import figlet from "figlet";
 import readline from "readline";
 import notifier from "node-notifier";
+import { fileURLToPath } from "url";
 import path from "path";
 import fs from "fs";
 import player from "play-sound";
 
-const soundPath = path.join(process.cwd(), "alarm.mp3");
+// Resolve __dirname in ESM
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const soundPath = path.join(__dirname, "alarm.mp3");
 
 function playAlarm() {
   if (fs.existsSync(soundPath)) {

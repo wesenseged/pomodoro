@@ -5,19 +5,8 @@ A sleek and interactive **Pomodoro timer** for your terminal. Designed to help y
 ---
 
 ## 📸 Preview
+![pomodoro Screenshot](https://github.com/wesenseged/pomodoro/blob/Screenshot.png)
 
-```bash
-$ pomodoro
-✔ Enter Pomodoro session duration (in minutes): … 25
-
- ____  ____    ___   ___  
-|___ \| ___|_ / _ \ / _ \ 
-  __) |___ (_) | | | | | |
- / __/ ___) || |_| | |_| |
-|_____|____(_)\___/ \___/ 
-
-Press 'r' to reset, 's' to stop/start, Ctrl+C to exit
-```
 
 When the timer ends:
 
