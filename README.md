@@ -5,8 +5,7 @@ A sleek and interactive **Pomodoro timer** for your terminal. Designed to help y
 ---
 
 ## 📸 Preview
-![pomodoro Screenshot](https://github.com/wesenseged/pomodoro/blob/Screenshot.png)
-
+![pomodoro Screenshot](https://github.com/wesenseged/pomodoro/blob/main/Screenshot.png)
 
 When the timer ends:
 
